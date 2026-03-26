@@ -1,0 +1,26 @@
+int Ledverde = 10;
+int Ledgiallo = 11; 
+int Ledrosso = 12;
+
+void setup(){
+  pinMode(Ledverde, OUTPUT);
+  pinMode(Ledgiallo, OUTPUT);
+  pinMode(Ledrosso, OUTPUT);
+}
+
+void loop(){
+  digitalWrite(Ledverde, HIGH);
+  digitalWrite(Ledgiallo, LOW);
+  digitalWrite(Ledrosso, LOW);
+  delay(3000);
+  
+  digitalWrite(Ledverde, LOW);
+  digitalWrite(Ledgiallo, HIGH);
+  digitalWrite(Ledrosso, LOW);
+  delay(1000);
+  
+  digitalWrite(Ledverde, LOW);
+  digitalWrite(Ledgiallo, LOW);
+  digitalWrite(Ledrosso, HIGH);
+  delay(3000);
+}
