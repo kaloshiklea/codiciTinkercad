@@ -14,7 +14,7 @@ Accensione e spegnimento di un LED a intervalli regolari.
 
 ### Componenti
 - 1 LED
-- 1 Resistenza (220Ω)
+- 1 Resistenza
 - Arduino
 - Breadboard e cavi
 
